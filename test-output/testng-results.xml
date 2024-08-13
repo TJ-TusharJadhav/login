@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T17:50:32 IST" name="Default suite" finished-at="2024-08-13T17:50:50 IST" duration-ms="17735">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T17:50:32 IST" name="Default test" finished-at="2024-08-13T17:50:50 IST" duration-ms="17735">
+      <class name="testcases.TC_Login">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:32 IST" name="beforeMethod" finished-at="2024-08-13T17:50:41 IST" duration-ms="8264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Blank_Login()[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:41 IST" name="Blank_Login" finished-at="2024-08-13T17:50:41 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_Login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:41 IST" name="afterMethod" finished-at="2024-08-13T17:50:41 IST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Blank_Login status=SUCCESS method=TC_Login.Blank_Login()[pri:0, instance:testcases.TC_Login@74f0ea28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:41 IST" name="beforeMethod" finished-at="2024-08-13T17:50:44 IST" duration-ms="3777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Invalid_Login()[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:44 IST" name="Invalid_Login" finished-at="2024-08-13T17:50:45 IST" duration-ms="236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[unsuccessfullyMessage not displayed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: unsuccessfullyMessage not displayed.
+at pageobject.Login.VerifyunsuccessfullyMessage(Login.java:49)
+at testcases.TC_Login.Invalid_Login(TC_Login.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_Login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:45 IST" name="afterMethod" finished-at="2024-08-13T17:50:45 IST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Invalid_Login status=FAILURE method=TC_Login.Invalid_Login()[pri:0, instance:testcases.TC_Login@74f0ea28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:45 IST" name="beforeMethod" finished-at="2024-08-13T17:50:49 IST" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Valid_Login()[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:49 IST" name="Valid_Login" finished-at="2024-08-13T17:50:50 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_Login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC_Login@74f0ea28]" started-at="2024-08-13T17:50:50 IST" name="afterMethod" finished-at="2024-08-13T17:50:50 IST" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Valid_Login status=SUCCESS method=TC_Login.Valid_Login()[pri:0, instance:testcases.TC_Login@74f0ea28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
