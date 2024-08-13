@@ -23,5 +23,11 @@ public class TC_Login extends baseclass {
         login.VerifyunsuccessfullyMessage();
 	
   }
+	@Test
+	public void Blank_Login1() {
+		login.ClickLoginButton();
+        login.VerifyunsuccessfullyMessage();
+	
+  }
 
 }
